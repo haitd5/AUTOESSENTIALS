@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut</title>
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/fontawesome/css/all.min.css">
+
+    <link rel="icon" href="assest/media/image/favicon/favicon.ico" type="imgae/icon">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid p-0 pb-5 mb-2">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+                <div class="container">
+                    <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0"
+                        href="index.html">
+
+                        <p class="text-uppercase ms-2 fw-bold p-0 m-0">Auto<span class="text-color">Essentials</span>
+                        </p>
+                    </a>
+                    <div class="order-lg-2">
+                        <a href="cart.html" class="text-decoration-none">
+                            <button type="button" class="btn">
+                                <i class="fa fa-shopping-cart"></i>
+
+                            </button>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <button type="button" class="btn">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </a>
+                        <a href="account.html" class="text-decoration-none">
+                            <button type="button" class="btn">
+                                <i class="fas fa-user"></i>
+                            </button>
+                        </a>
+
+                    </div>
+
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                        <ul class="navbar-nav mx-auto text-center">
+                            <li class="nav-item px-2 py-2">
+                                <a class="nav-link text-uppercase link-custom text-dark" href="index.html">home</a>
+                            </li>
+                            <li class="nav-item px-2 py-2">
+                                <a class="nav-link text-uppercase link-custom text-dark" href="shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item px-2 py-2">
+                                <a class="nav-link text-uppercase link-custom text-dark" href="404.html">About</a>
+                            </li>
+                            <li class="nav-item px-2 py-2">
+                                <a class="nav-link text-uppercase link-custom text-dark" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item px-2 py-2">
+                                <a class="nav-link text-uppercase link-custom text-dark" href="404.html">Tools</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+        </div>
+    </header>
+    <main>
+        <!-- banner -->
+        <div class="container-fluid p-0">
+            <section id="checkout-banner" class="checkout-banner pt-3">
+
+                <div class="py-5 text-center">
+                    <img src="assest/media/image/logo/logo.png" alt="" class="img-fluid">
+                    <h1>Checkout</h1>
+                    <p>Home / Checkout</p>
+
+                </div>
+            </section>
+            <section id="login" class="login py-4 mt-4">
+                <div class="container">
+                    <div class="row">
+                        <h1>Billing details</h1>
+                        <div class="col-md-12 col-xl-6 p-2">
+
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <p class="text-muted">First Name</p>
+                                        <input type="text" class="form-control" id="first-name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="text-muted">Last Name</p>
+                                        <input type="text" class="form-control" id="last-name">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-muted">Company Name (Optional)</p>
+                                        <input type="text" class="form-control" id="company">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-muted">Country / Region</p>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Sri Lanka</option>
+                                            <option value="1">New York</option>
+                                            <option value="2">Carolina</option>
+                                            <option value="3">Ohio</option>
+                                            <option value="4">Hawaii</option>
+                                            <option value="5">Alaska</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-muted">Street address</p>
+                                        <input type="text" class="form-control" id="company">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-muted">Town / City</p>
+                                        <input type="text" class="form-control" id="company">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-muted">Province</p>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Western Province</option>
+                                            <option value="1">New York</option>
+                                            <option value="2">Carolina</option>
+                                            <option value="3">Ohio</option>
+                                            <option value="4">Hawaii</option>
+                                            <option value="5">Alaska</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-muted">ZIP code</p>
+                                        <input type="number" class="form-control" id="zip-code">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-muted">Phone</p>
+                                        <input type="number" class="form-control" id="phone">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-muted">Email address</p>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+
+                                </div>
+                            </form>
+
+
+
+                        </div>
+                        <div class="col-md-12 col-xl-6 px-5 py-2">
+
+                            <div class="d-flex justify-content-between">
+                                <h4>Product</h4>
+                                <h4>Subtotal</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p class="text-muted">MIRAGE MR-AT172 285/65 x 1</p>
+                                <p>Rs. 50,000.00</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Subtotal</p>
+                                <p>Rs. 50,000.00</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Total</p>
+                                <h4>Rs. 50,000.00</h4>
+                            </div>
+                            <hr>
+
+                            <div class="py-2">
+                                <input class="form-check-input" type="radio" name="checkout" id="checkout">
+                                <label class="form-check-label ps-2 pe-4" for="residential">
+                                    Direct Bank Transfer
+                                </label>
+                                <p class="text-min pt-2">Make your payment directly into our bank account. Please use
+                                    your
+                                    Order ID as the
+                                    payment reference. Your order will not be shipped until the funds have cleared in
+                                    our account.
+                                </p>
+                            </div>
+
+
+
+
+                            <div class="py-2">
+                                <input class="form-check-input" type="radio" name="checkout" id="checkout">
+                                <label class="form-check-label ps-2 pe-4" for="residential">
+                                    Direct Bank Transfer
+                                </label>
+                            </div>
+
+
+                            <div class="py-2">
+                                <input class="form-check-input" type="radio" name="checkout" id="checkout">
+                                <label class="form-check-label ps-2 pe-4" for="residential">
+                                    Cash On Delivery
+                                </label>
+                            </div>
+                            <div>
+                                <p class="text-min">Your personal data will be used to support your experience
+                                    throughout this website, to manage access to your account, and for other purposes
+                                    described in our privacy policy.</p>
+                            </div>
+                            <div class="text-center py-3">
+                                <button class="btn btn-primary py-3 px-5 text-white" type="submit">Place order</button>
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+            <section id="delivery" class="delivery py-5 mt-4 bg-color">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-lg-4">
+                            <h3>Free Delivery</h3>
+                            <p>For all oders over $50, consectetur adipim scing elit.</p>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <h3>90 Days Return</h3>
+                            <p>If goods have problems, consectetur adipim scing elit.</p>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <h3>Secure Payment</h3>
+                            <p>100% secure payment, consectetur adipim scing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+    <footer class="pt-5 border-top border-1 shadow">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pb-2">
+                    <img src="assest/media/image/footer/footter2.png" alt="" class="img-fluid w-75 border bg-color">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pb-2">
+                    <h5 class="fw-bold pb-2">Links</h5>
+                    <p><a href="#" class="text-decoration-none text-black link-custom">Home</a></p>
+                    <p><a href="#" class="text-decoration-none text-black link-custom">Shop</a></p>
+                    <p><a href="#" class="text-decoration-none text-black link-custom">About</a></p>
+                    <p><a href="#" class="text-decoration-none text-black link-custom">Contact</a></p>
+
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pb-2">
+                    <h5 class="fw-bold pb-2">Help</h5>
+                    <p><a href="#" class="text-decoration-none text-black link-custom">Payment Options</a></p>
+                    <p><a href="#" class="text-decoration-none text-black link-custom">Returns</a></p>
+                    <p><a href="#" class="text-decoration-none text-black link-custom">Privacy Policies</a></p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pb-2">
+                    <h5 class="fw-bold pb-2">Newsletter</h5>
+                    <div class="input-group mb-3">
+
+                        <input type="text" class="form-control w-50" placeholder="email" aria-label="email">
+                        <span class="input-group-text btn btn-primary" id="email">
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="assest/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assest/js/style.js"></script>
+
+
+</body>
+
+</html>
